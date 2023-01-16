@@ -1,0 +1,27 @@
+.grid{
+    border: black solid 2px;
+     height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div{
+    width:20px;
+    height:20px;
+    font-size:10px;
+}
+.aliens{
+    background-color: #a7ad02;
+    border-radius: 50%;
+}
+.shooter{
+    background-color: #095ede;
+    border-radius: 50%;
+}
+.laser{
+    background-color: #de0909;
+    border-radius: 50%;
+}
+.boom {
+     background-color: red;
+ }
